@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="241px" height="278px" viewBox="0 0 241 278" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-05</title>
+    <g id="ICONS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-05" fill="#1A1A1A" fill-rule="nonzero">
+            <path d="M230.452,226.818 L209.709,249.513 L209.709,32.465 L177.32,32.465 L177.32,0.076 L0.789,0.076 L0.789,210.408 L33.178,210.408 L33.178,242.797 L152.045,242.797 L152.045,228.797 L47.178,228.797 L47.178,46.465 L195.709,46.465 L195.709,249.514 L174.966,226.819 L164.632,236.264 L202.709,277.924 L240.786,236.264 L230.452,226.818 Z M33.178,32.465 L33.178,196.408 L14.789,196.408 L14.789,14.076 L163.32,14.076 L163.32,32.465 L33.178,32.465 Z" id="Shape"></path>
+            <rect id="Rectangle" x="79.066" y="82.549" width="84.754" height="14"></rect>
+            <rect id="Rectangle" x="79.066" y="126.549" width="84.754" height="14"></rect>
+            <rect id="Rectangle" x="79.066" y="170.551" width="84.754" height="14"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'AvenirNext Regular';
+    src: url('./assets/fonts/AvenirNextCyr-Regular.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirNext Medium';
+    src: url('./assets/fonts/AvenirNextCyr-Medium.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirNext LightItalic';
+    src: url('./assets/fonts/AvenirNextCyr-MediumItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirNext DemiBold';
+    src: url('./assets/fonts/AvenirNextCyr-Demi.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AvenirNext Bold';
+    src: url('./assets/fonts/AvenirNextCyr-Bold.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}

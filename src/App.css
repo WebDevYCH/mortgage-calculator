@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  
+  box-sizing: border-box;
+  font-family: "AvenirNext Regular" ;
+}
+
+.btn {
+  font-family: "AvenirNext Regular" !important;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: #fcfcfc;
+  text-align: center;
+  font-family: "AvenirNext-Medium";
+  color: #000000;
+}
+
+header{
+  z-index: 1000;
+}
+
+.error {
+  color: #EC0011 !important;
+  font-family: 'AvenirNext Regular' !important;
+  margin-bottom: 0;
+}
+
+.error-text {
+  color:#EC0011;
+}
+
+.btn {
+  border-color: #e6e6e6 !important;
+  background-color: #e6e6e6;
+  color: #000000
+}
+
+.btn:focus {
+  box-shadow: none !important;
+}
+
+
+.btn:hover {
+  background-color: #000 !important;
+}
+
+.active {
+  background-color: #000 !important;
+}
+
+svg {
+  height: 37px;
+  cursor: pointer;
+}
+
+.sldiercontainer{
+  display: flex;
+  max-width: 530px;
+}
+
+.sldierTitle{
+  font-family: "AvenirNext Medium";
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.sldierDescription{
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.sldierSmDescription{
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #7f7f7f;
+}
+
+.sliderAvatar{
+  background-color: #b7b7b7;
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.sliderText{
+  max-width: 470px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.popupimg{
+  width: 100%;
+  height: 100%;
+}
+
+.sideMenuBtnImg:hover{
+  opacity: 0.5;
+}
+.sideMenuBtnImg{
+  cursor: pointer;
+  float: right;
+  width: 23px;
+}
+
+.BtnLogo:hover{
+  opacity: 0.5;
+}
+.MuiPaper-rounded{
+  border-radius: 3px !important;
+}
+@media (max-width: 930px){
+  .sldiercontainer{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .sliderText{
+    padding: 30px 0 0 0;
+
+  }
+  @media(max-width: 930px){
+    .MuiDialog-paper{
+      margin: 20px !important;
+    }
+
+  }
+}
+
+.DdgXK{
+  max-width: 450px !important;
+}

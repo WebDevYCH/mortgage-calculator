@@ -1,0 +1,222 @@
+header {
+  min-height: 60px;
+  height: 60px;
+  width: 100%;
+  position: sticky;
+  top:0;
+  background-color: #FCFCFC;
+  display: flex !important;
+  align-items: center;
+  padding: 0 207px;
+  justify-content: space-between;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+  
+.paddingsm {
+  padding-left: 208px;
+  padding-right: 208px;
+}
+
+.my-dropdown-toggle::after {
+  content: none;
+}
+
+.homepageheader{
+  padding:0 208px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.select {
+
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.checkbox {
+  font-size: 12px;
+  display: flex;
+}
+
+.checkbox_description {
+  display: flex;
+  align-items: center;
+}
+
+.form-check-label {
+  text-align: left;
+  padding-left: 5px;
+  font-size: 14px;
+  line-height: 1.3rem;
+}
+
+.input-box {
+  color:black !important;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.1rem #EFF7F9 !important;
+  background-color: #FCFCFC !important;
+  border: solid 1px #000000 !important;
+}
+
+.form-control {
+  background-color: #FCFCFC !important;
+  border-color: #b7b7b7 !important;  
+}
+
+select { 
+  /* for Firefox */ 
+  -moz-appearance: none; 
+  /* for Safari, Chrome, Opera */ 
+  -webkit-appearance: none; 
+} 
+
+.select-box {
+  position: relative;
+  width: 100%;
+  z-index: 100;
+}
+
+.select-box::before {
+  content:"";
+  position: absolute;
+  margin:auto;
+  top:0;
+  bottom:0;
+  right: 22px;
+  width: 14px;
+  height: 8px;
+  background-image: url('../src/assets/images/chevron-down.svg');
+  /* background-color: red; */
+}
+
+.MuiDrawer-paperAnchorLeft {
+  z-index: 6000 !important;
+}
+
+.exitbutton {
+  float: left;
+  margin-top: 0.3vw;
+}
+
+#nextbutton {
+  float: right;
+  background-color: #000000;
+}
+.exit-btn {
+  color: #000000 !important;
+  text-decoration: underline !important;
+  font-family: "AvenirNext Regular" !important;
+}
+
+.inline {
+  display: inline;
+}
+
+.description {
+  width: 37vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.processbarcontainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EFF7F9;
+}
+
+#progressbar {
+  display: flex;
+}
+
+.progress {
+  margin: 3vw auto auto auto;
+  height: 0.5rem !important;
+  opacity: 0.7 !important;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+}
+.bg-danger-custom {
+  border-radius: 5px;
+  background-color: white !important;
+}
+.input_checkbox {
+  margin-top: 3px;
+}
+
+.success_text {
+  color: #37383C;
+  font-size: 36px;
+  font-family: 'AvenirNext Medium';
+}
+
+.logo {
+  width: 300px; 
+  height: 60px;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+label {
+ font-family: 'AvenirNext Medium' !important;
+}
+
+@media(max-width: 930px){
+  .homepageheader{
+    padding:0 20px;
+  }
+  .paddingsm {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .progress {
+    margin-top: 13vw;
+  }
+  .description {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .processbarcontainer {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .success_text {
+    font-size: 24px;
+  }
+
+  .logo {
+    width: 200px; 
+    height: 40px;
+    font-size: 30px;
+  }
+
+  header {
+    position: fixed;
+    top:0;
+    min-height: 60px;
+    height: 60px;
+    width: 100%;
+    display: flex !important;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+  }
+}

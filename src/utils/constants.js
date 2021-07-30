@@ -1,0 +1,1 @@
+export const sendEmailEndpoint = "https://us-central1-mortgagecalculatorus-e65ff.cloudfunctions.net"
